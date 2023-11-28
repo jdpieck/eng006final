@@ -1,0 +1,67 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3839507296" file="C:\Users\chris\OneDrive\Documents\MATLAB\test package.prj" location="C:\Users\chris\OneDrive\Documents\MATLAB" name="test package" target="target.mlapps" target-name="Package App">
+    <param.appname>test package</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>please work</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\chris\AppData\Local\Temp\tpbbcecb3e_6732_4478_9515_d4775fc52580.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>e82f79ad-0e02-42c6-b037-edd82d6fcecd</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\President.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\Users\chris\Downloads\background.png</file>
+      <file>C:\Users\chris\Downloads\Untitled drawing.png</file>
+      <file>${PROJECT_ROOT}\RulesPopup.mlapp</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\chris\OneDrive\Documents" name="MATLAB" optional="false">C:\Users\chris\OneDrive\Documents\MATLAB</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
