@@ -1,7 +1,8 @@
 function playerDecks = InitalizeDecks(numPlayers)
 %INITALIZE DECKS Summary of this function goes here
 %   Detailed explanation goes here
-    cards = randperm(52);
+    %Create random order of 52 unique cards
+    cards = randperm(52); 
     
     switch numPlayers
         case 3
