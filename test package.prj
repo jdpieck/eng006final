@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3839507296" file="C:\Users\chris\OneDrive\Documents\MATLAB\test package.prj" location="C:\Users\chris\OneDrive\Documents\MATLAB" name="test package" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="3839507296" file="C:\Users\jason\Documents\MATLAB\ENG 006 Final\test package.prj" location="C:\Users\jason\Documents\MATLAB\ENG 006 Final" name="test package" target="target.mlapps" target-name="Package App">
     <param.appname>test package</param.appname>
     <param.authnamewatermark />
     <param.email />
@@ -8,7 +8,7 @@
     <param.icons />
     <param.summary>please work</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\chris\AppData\Local\Temp\tpbbcecb3e_6732_4478_9515_d4775fc52580.png</param.screenshot>
+    <param.screenshot />
     <param.version>1.0</param.version>
     <param.products.name />
     <param.products.id />
@@ -23,6 +23,7 @@
       <param.icon />
       <param.icons />
       <param.description />
+      <param.screenshot />
       <param.version />
       <param.products.name />
       <param.products.id />
@@ -41,7 +42,7 @@
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\chris\OneDrive\Documents" name="MATLAB" optional="false">C:\Users\chris\OneDrive\Documents\MATLAB</file>
+      <file location="C:\Users\jason\Documents\MATLAB" name="ENG 006 Final" optional="false">C:\Users\jason\Documents\MATLAB\ENG 006 Final</file>
     </build-deliverables>
     <workflow />
     <matlab>

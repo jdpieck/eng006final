@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration file="C:\Users\chris\OneDrive\Documents\MATLAB\President.prj" location="C:\Users\chris\OneDrive\Documents\MATLAB" name="President" target="target.mlapps" target-name="Package App">
+  <configuration file="C:\Users\jason\Documents\MATLAB\ENG 006 Final\resources\project\President.prj" location="C:\Users\jason\Documents\MATLAB\ENG 006 Final\resources\project" name="President" target="target.mlapps" target-name="Package App">
     <param.appname>President</param.appname>
     <param.authnamewatermark />
     <param.email />
@@ -8,7 +8,7 @@
     <param.icons />
     <param.summary />
     <param.description />
-    <param.screenshot>C:\Users\chris\AppData\Local\Temp\tp0388a94b_0699_4b01_beb2_602785350aba.png</param.screenshot>
+    <param.screenshot />
     <param.version>1.0</param.version>
     <param.products.name />
     <param.products.id />
@@ -24,6 +24,7 @@
       <param.icons />
       <param.summary />
       <param.description />
+      <param.screenshot />
       <param.version />
       <param.products.name />
       <param.products.id />
@@ -34,15 +35,11 @@
     <fileset.main>
       <file>${PROJECT_ROOT}\President.mlapp</file>
     </fileset.main>
-    <fileset.depfun>
-      <file>C:\Users\chris\Downloads\background.png</file>
-      <file>C:\Users\chris\Downloads\Untitled drawing.png</file>
-      <file>${PROJECT_ROOT}\RulesPopup.mlapp</file>
-    </fileset.depfun>
+    <fileset.depfun />
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\chris\OneDrive\Documents" name="MATLAB" optional="false">C:\Users\chris\OneDrive\Documents\MATLAB</file>
+      <file location="C:\Users\jason\Documents\MATLAB\ENG 006 Final\resources" name="project" optional="false">C:\Users\jason\Documents\MATLAB\ENG 006 Final\resources\project</file>
     </build-deliverables>
     <workflow />
     <matlab>
