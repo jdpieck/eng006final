@@ -9,7 +9,7 @@ function playerDecks = InitalizeDecks(numPlayers)
     
     %How many players are there?
     switch numPlayers
-        case 3 
+        case 3 %there are three players
             playerDecks = zeros(3, 18);
             playerDecks(1, :) = cat(2, [cards(1:17), 0]);   %Deck 1
             playerDecks(2, :) = cat(2, [cards(18:34), 0]);  %Deck 2
