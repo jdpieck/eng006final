@@ -16,9 +16,7 @@ function [gameState, winRow] = WinState(playerDecks,numPlayers)
     %numPlayers: variable for number of players used in InitializeDecks
 
 
-switch numPlayers
-    case 3 
-        for i = 1:3
+ for i = 1:numPlayers
             playersHand = playerDecks(i,:); %isolates one player's hand
             summedHand = sum(playersHand); %sums all the values of that players hand
             if summedHand == 0  %Checks if hand sums to 0, meaning the hand is empty
@@ -29,25 +27,41 @@ switch numPlayers
                 gameState = "Round Incomplete";
                 winRow = 0 
             end 
-        end 
- 
+ end 
 
 
-    case 4
-         for i = 1:4
-            playersHand = playerDecks(i,:); %isolates one player's hand
-            summedHand = sum(playersHand); %sums all the values of that players hand
-            if summedHand == 0  %Checks if hand sums to 0, meaning the hand is empty
-                gameState = "Round Complete";
-                winRow = i
-                break
-            else 
-                gameState = "Round Incomplete";
-                winRow = 0
-            end
-         end
-
-end 
+% switch numPlayers
+%     case 3 
+%         for i = 1:3
+%             playersHand = playerDecks(i,:); %isolates one player's hand
+%             summedHand = sum(playersHand); %sums all the values of that players hand
+%             if summedHand == 0  %Checks if hand sums to 0, meaning the hand is empty
+%                 gameState = "Round Complete";
+%                 winRow = i
+%                 break
+%             else 
+%                 gameState = "Round Incomplete";
+%                 winRow = 0 
+%             end 
+%         end 
+% 
+% 
+% 
+%     case 4
+%          for i = 1:4
+%             playersHand = playerDecks(i,:); %isolates one player's hand
+%             summedHand = sum(playersHand); %sums all the values of that players hand
+%             if summedHand == 0  %Checks if hand sums to 0, meaning the hand is empty
+%                 gameState = "Round Complete";
+%                 winRow = i
+%                 break
+%             else 
+%                 gameState = "Round Incomplete";
+%                 winRow = 0
+%             end
+%          end
+% 
+% end 
 
 
 end
