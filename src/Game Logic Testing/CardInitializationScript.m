@@ -1,10 +1,11 @@
-cards = randperm(52);
-deck = Card.empty
+cardNum = randperm(52);
+cardImg = cardNum + ".png";
 
+cardLocation = find(cardNum == 24);
+cardImg(cardLocation)
 
-for i = cards
-    number = i;
-    image = i + ".svg";
-    deck = cat(2,deck,Card(number,image))
-end 
+% for i = cardNum
+%     number = i;
+%     cardImg(i) = i + ".svg"
+% end 
 
