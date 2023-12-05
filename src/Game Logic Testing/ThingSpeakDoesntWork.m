@@ -6,12 +6,14 @@ writeKey = 'XH18T2Q11AQPS9PA';
 thingSpeakWrite(channelID, 'WriteKey', writeKey, 'Fields', 1, 'Values', 1);
 output1 = thingSpeakRead(channelID, 'ReadKey', readKey, 'Fields', 1)
 
-pause(15)
+pause(1)
 
 thingSpeakWrite(channelID, 'WriteKey', writeKey, 'Fields', 2, 'Values', 1);
 output2 = thingSpeakRead(channelID, 'ReadKey', readKey, 'Fields', 2)
-pause(15)
+
+pause(1) %To Show that it is not pause depdent
+
 output3 = thingSpeakRead(channelID, 'ReadKey', readKey, 'Fields', 1)
 
-
+%value is perminately scrubbed
 output4 = thingSpeakRead(channelID, 'ReadKey', readKey, 'Fields', [1,2])
