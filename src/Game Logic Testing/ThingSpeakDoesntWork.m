@@ -11,23 +11,30 @@ output1 = thingSpeakRead(channelID, 'ReadKey', readKey, 'Fields', 1)
 
 pause(1)
 
-thingSpeakWrite(channelID, 'WriteKey', writeKey, 'Fields', 2, 'Values', 1);
-output2 = thingSpeakRead(channelID, 'ReadKey', readKey, 'Fields', 2)
+output2 = thingSpeakRead(channelID, 'ReadKey', readKey, 'Fields', 1)
 
-pause(1) %To Show that it is not pause depdent
-
+pause(1)
+thingSpeakWrite(channelID, 'WriteKey', writeKey, 'Fields', 1, 'Values', 3);
 output3 = thingSpeakRead(channelID, 'ReadKey', readKey, 'Fields', 1)
 
-%value is perminately scrubbed
-output4 = thingSpeakRead(channelID, 'ReadKey', readKey, 'Fields', [1,2])
 
-thingSpeakWrite(channelID, 'WriteKey', writeKey, 'Fields', 1, 'Values', 3);
-pause(1)
-thingSpeakWrite(channelID, 'WriteKey', writeKey, 'Fields', 2, 'Values', 3);
-output5 = thingSpeakRead(channelID, 'ReadKey', readKey, 'Fields', [1,2])
-
-pause(1)
-thingSpeakWrite(channelID, 'WriteKey', writeKey, 'Fields', 1, 'Values', 1);
-pause(1)
-thingSpeakWrite(channelID, 'WriteKey', writeKey, 'Fields', 2, 'Values', 1);
-output6 = thingSpeakRead(channelID, 'ReadKey', readKey, 'Fields', [1,2])
+% thingSpeakWrite(channelID, 'WriteKey', writeKey, 'Fields', 2, 'Values', 1);
+% output2 = thingSpeakRead(channelID, 'ReadKey', readKey, 'Fields', 2)
+% 
+% pause(1) %To Show that it is not pause depdent
+% 
+% output3 = thingSpeakRead(channelID, 'ReadKey', readKey, 'Fields', 1)
+% 
+% %value is perminately scrubbed
+% output4 = thingSpeakRead(channelID, 'ReadKey', readKey, 'Fields', [1,2])
+% 
+% thingSpeakWrite(channelID, 'WriteKey', writeKey, 'Fields', 1, 'Values', 3);
+% pause(1)
+% thingSpeakWrite(channelID, 'WriteKey', writeKey, 'Fields', 2, 'Values', 3);
+% output5 = thingSpeakRead(channelID, 'ReadKey', readKey, 'Fields', [1,2])
+% 
+% pause(1)
+% thingSpeakWrite(channelID, 'WriteKey', writeKey, 'Fields', 1, 'Values', 1);
+% pause(1)
+% thingSpeakWrite(channelID, 'WriteKey', writeKey, 'Fields', 2, 'Values', 1);
+% output6 = thingSpeakRead(channelID, 'ReadKey', readKey, 'Fields', [1,2])
